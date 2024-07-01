@@ -136,13 +136,13 @@ section{
 
 .home .slide .content{
     text-align: center;
-    width: 70rem;
+    width: 50rem;
     padding-left: 15rem;
     display: none;
 }
 
 .home .slide .content h3{
-    font-size: 6rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     color: var(--main-color);
     line-height: 1;
@@ -188,6 +188,9 @@ section{
 
 .about .row .image{
     flex: 1 1 37rem;
+     width: 300px!important;
+    height: 300px!important;
+   
 
 }
 
@@ -226,7 +229,7 @@ section{
 }
 
 .menu .box-container .box .image{
-    height: 30rem;
+    height: 20rem;
     overflow: hidden;
     width: 100%;
     text-align: center;
@@ -277,6 +280,7 @@ section{
     height: 90%;
     position: relative;
     overflow: hidden;
+    
 }
 
 .gallery .gallery-container .box img{
@@ -401,8 +405,11 @@ section{
 
 .order form .box-container .box .inputBox input:focus,
 .order form .box-container .box .inputBox textarea:focus{
-    background: var(--main-color);
-    color: var(--white);
+    outline: none; /* Elimina el borde azul que aparece al enfocar */
+  /* Otros estilos que desees restablecer o aplicar */
+  background-color: initial;
+  border: initial;
+  color: initial;
 }
 
 .order form .box-container .box .inputBox input:focus::placeholder,
@@ -513,6 +520,8 @@ section{
 .footer .credit span{
     color: var(--main-color);
 }
+
+
 
 /* media queries */
 
