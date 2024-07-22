@@ -113,6 +113,33 @@ section{
     display: none;
 }
 
+/*precios*/
+
+#price-table {
+    margin-top: -20px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  
+  #price-table th,
+  #price-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  
+  #price-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #price-table th {
+    background-color: #009540;
+    color: white;
+  }
+
+
 /* home */
 
 @keyframes fadeIn{
@@ -188,8 +215,7 @@ section{
 
 .about .row .image{
     flex: 1 1 37rem;
-     width: 300px!important;
-    height: 300px!important;
+    
    
 
 }
