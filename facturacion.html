@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <!-- swiper -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <!-- lightgallery -->
+  <!-- lightgallery -->s
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css" />
@@ -23,7 +23,7 @@
     <nav class="navbar">
       <a href="index.html">INICIO</a>
       <a href="grupodg.html">GRUPO DG</a>
-      <a href="http://dg-energia.dyndns.org/controlgasfe/feinicio.aspx" target="_blank">FACTURACIÓN</a>
+      <a href="facturacion.html" target="_blank">FACTURACIÓN</a>
       <a href="gasolinera.html">GASOLINERAS</a>
       <a href="olmecared.html">PRODUCTOS</a>
       <a href="http://olmecared.dyndns.org/CGWAtio/" target="_blank">OLMECARED</a>
@@ -32,15 +32,15 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
   <section class="fact" id="fact">
-    <div class="swiper home-slider">
+    <div class="swiper">
       <div class="swiper-wrapper">
         <div
           class="swiper-slide slide"
           style="background: url(images/bg_login.jpg)"
         >
           <div class="content">
-            <h3 class="texto">COMPROMISO Y HONESTIDAD EN CADA LITRO</h3>
-            <a href="#"></a>
+            <h3 class="texto"></h3>
+            <a style ="background-color: #042C5C;" href="HAZLO AQUI!"></a>
           </div>
         </div>
 
@@ -132,7 +132,7 @@
         </p>
         <p style="margin: 0"><strong>Horario de atención:</strong></p>
         <p>
-          Lunes a Viernes de 8:00 am a 14:00 hrs. y de 16:00 hrs a 19:30 hrs
+          Lunes a Viernes de 8:00 am a 14:00 hrs. y de 16:00 hrs a 18:00 hrs
         </p>
      
         <a class="btn btn-mod btn-small btn-round button_main" target="_blank"
@@ -142,6 +142,18 @@
     </div>
   </section>
 
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- lightgallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
   <!-- custom js -->
   <script src="js/script.js"></script>
 </body>
