@@ -64,7 +64,7 @@ section{
 }
 
 .btn:hover{
-    background: var(--hover);
+    background: #082e75;
 }
 
 /* header */
@@ -334,7 +334,7 @@ margin-right: 30%;
 }
 
 .fac .box-container .box .content{
-    padding: 1.5rem;
+    padding: 5rem;
     text-align: center;
 }
 
