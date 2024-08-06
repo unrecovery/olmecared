@@ -154,7 +154,7 @@ section{
 }
 
 .home .slide{
-    min-height: 65vh;
+    min-height: 45vh;
     background-size:cover !important;
     background-position: center ;
     display: flex;

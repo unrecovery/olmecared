@@ -1,200 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INICIO :: ENERGIA DG</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- swiper -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>INICIO :: ENERGIA DG</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-  <!-- font awesome -->
-  <link rel="stylesheet" href="/css/all.min.css" />
-  <!-- swiper -->
-  <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
-  <!-- custom css -->
-  <link rel="stylesheet" href="/css/style.css" />
-</head>
+  <body>
+    <section class="header">
+      <img src="images/logo.png" alt="Logo de Grupo DG" />
+      <nav class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="grupodg.html">GRUPO DG</a>
+        <a href="facturacion.html">FACTURACIÓN</a>
+        <a href="gasolinera.html">GASOLINERAS</a>
+        <a href="olmecared.html">PRODUCTOS</a>
+        <a href="http://olmecared.dyndns.org/CGWAtio/" target="_blank"
+          >OLMECARED</a
+        >
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- header -->
 
-<body>
-  <section class="header">
-    <img src="images/logo.png" alt="Logo de Grupo DG" />
-    <nav class="navbar">
-      <a href="index.html">INICIO</a>
-      <a href="grupodg.html">GRUPO DG</a>
-      <a href="facturacion.html">FACTURACIÓN</a>
-      <a href="gasolinera.html">GASOLINERAS</a>
-      <a href="olmecared.html">PRODUCTOS</a>
-      <a href="http://olmecared.dyndns.org/CGWAtio/" target="_blank">OLMECARED</a>
-    </nav>
-    <div id="menu-btn" class="fas fa-bars"></div>
-  </section>
-  <!-- header -->
-
-  <section class="home" id="home">
-    <div class="swiper home-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide slide"
-          style="background: url(images/IMG-20180122-WA0014.png); backdrop-filter: blur(20px);">
-          <div class="content">
-            <h3 class="texto">COMPROMISO Y HONESTIDAD EN CADA LITRO</h3>
-            <a href="#" class="btn">Conoce más</a>
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="
+              background: url(images/IMG-20180122-WA0014.png);
+              backdrop-filter: blur(20px);
+            "
+          >
+            <div class="content">
+              <h3 class="texto">COMPROMISO Y HONESTIDAD EN CADA LITRO</h3>
+              <a href="#" class="btn">Conoce más</a>
+            </div>
           </div>
         </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
+    </section>
+    <!-- home section -->
 
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </section>
-  <!-- home section -->
-
-  <section class="precios" id="precios">
-    <h1 class="heading">PRECIOS ACTUALES</h1>
-    <div class="box-container">
-      <div class="box">
-        <div class="content">
-          <table id="price-table">
-            <thead>
-              <tr>
-                <th>ESTACION</th>
-                <th style="background-color: green; color: white;">REGULAR</th>
-                <th style="background-color: red; color: white;">PREMIUM</th>
-                <th style="background-color: black; color: white;">DIESEL</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>DEPORTIVA</td>
-                <td>23.29</td>
-                <td>24.89</td>
-                <td>24.99</td>
-              </tr>
-              <tr>
-                <td>TEAPA</td>
-                <td>22.89</td>
-                <td>24.49</td>
-                <td>24.49</td>
-              </tr>
-              <tr>
-                <td>OCUILTZAPOTLAN</td>
-                <td>23.19</td>
-                <td>25.39</td>
-                <td>25.19</td>
-              </tr>
-              <tr>
-                <td>LOS MONOS</td>
-                <td>23.79</td>
-                <td>24.99</td>
-                <td>25.19</td>
-              </tr>
-              <tr>
-                <td>NIÑOS TRAVIESOS</td>
-                <td>23.29</td>
-                <td>24.89</td>
-                <td>24.99</td>
-              </tr>
-              <tr>
-                <td>OLMECA I</td>
-                <td>23.79</td>
-                <td>24.99</td>
-                <td>25.19</td>
-              </tr>
-              <tr>
-                <td>OLMECA II</td>
-                <td>23.79</td>
-                <td>24.99</td>
-                <td>25.19</td>
-              </tr>
-              <tr>
-                <td>PARADOR</td>
-                <td>23.79</td>
-                <td>24.89</td>
-                <td>25.89</td>
-              </tr>
-              <tr>
-                <td>PARAISO</td>
-                <td>23.59</td>
-                <td>25.19</td>
-                <td>25.39</td>
-              </tr>
-              <tr>
-                <td>PLAYAS VH</td>
-                <td>23.09</td>
-                <td>24.69</td>
-                <td>24.59</td>
-              </tr>
-              <tr>
-                <td>SAMARÍA</td>
-                <td>23.39</td>
-                <td>24.69</td>
-                <td>24.79</td>
-              </tr>
-              <tr>
-                <td>TABSCOOB</td>
-                <td>23.39</td>
-                <td>24.69</td>
-                <td>24.99</td>
-              </tr>
-              <tr>
-                <td>MAJAHUA</td>
-                <td>24.59</td>
-                <td>23.19</td>
-                <td>24.49</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- precios section -->
-
-  <section class="order" id="order">
-    <h1 class="heading">Conócenos en Nuestras Oficinas</h1>
-
-    <form action="">
+    <section class="precios" id="precios">
+      <h1 class="heading">PRECIOS ACTUALES</h1>
       <div class="box-container">
         <div class="box">
-          <div class="inputBox">
-            <span>Corporativo OLMECARED</span>
-            <input type="text" placeholder="Av. Periférico Carlos Pellicer Cámara S/N Col. Miguel Hidalgo." readonly />
-          </div>
-
-          <div class="inputBox">
-            <span>Email</span>
-            <input type="text" placeholder="sugerencias@olmecared.com" readonly />
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="inputBox">
-            <span>Teléfonos de Oficina</span>
-            <input type="text" placeholder="993-354-1457, 993-354-3306" readonly />
-          </div>
-
-          <div class="inputBox">
-            <span>Horarios de Atención</span>
-            <input type="text" placeholder="Lunes a Viernes de 8:00 AM a 7:00 PM y Sábados de 9:00 AM a 2:00 PM"
-              readonly />
-          </div>
-
-          <div class="inputBox">
-            <span>Nuestra Ubicación</span>
-            <iframe class="map"
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJS8wwZNfZ7YURqlQGEIHOJAs&key=AIzaSyDft4WlLUDeSEGuEKWZTLqfIk1KL4u_zIk"
-              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="content">
+            <table id="price-table">
+              <thead>
+                <tr>
+                  <th>ESTACION</th>
+                  <th style="background-color: green; color: white">REGULAR</th>
+                  <th style="background-color: red; color: white">PREMIUM</th>
+                  <th style="background-color: black; color: white">DIESEL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>DEPORTIVA</td>
+                  <td>23.29</td>
+                  <td>24.89</td>
+                  <td>24.99</td>
+                </tr>
+                <tr>
+                  <td>TEAPA</td>
+                  <td>22.89</td>
+                  <td>24.49</td>
+                  <td>24.49</td>
+                </tr>
+                <tr>
+                  <td>OCUILTZAPOTLAN</td>
+                  <td>23.19</td>
+                  <td>25.39</td>
+                  <td>25.19</td>
+                </tr>
+                <tr>
+                  <td>LOS MONOS</td>
+                  <td>23.79</td>
+                  <td>24.99</td>
+                  <td>25.19</td>
+                </tr>
+                <tr>
+                  <td>NIÑOS TRAVIESOS</td>
+                  <td>23.29</td>
+                  <td>24.89</td>
+                  <td>24.99</td>
+                </tr>
+                <tr>
+                  <td>OLMECA I</td>
+                  <td>23.79</td>
+                  <td>24.99</td>
+                  <td>25.19</td>
+                </tr>
+                <tr>
+                  <td>OLMECA II</td>
+                  <td>23.79</td>
+                  <td>24.99</td>
+                  <td>25.19</td>
+                </tr>
+                <tr>
+                  <td>PARADOR</td>
+                  <td>23.79</td>
+                  <td>24.89</td>
+                  <td>25.89</td>
+                </tr>
+                <tr>
+                  <td>PARAISO</td>
+                  <td>23.59</td>
+                  <td>25.19</td>
+                  <td>25.39</td>
+                </tr>
+                <tr>
+                  <td>PLAYAS VH</td>
+                  <td>23.09</td>
+                  <td>24.69</td>
+                  <td>24.59</td>
+                </tr>
+                <tr>
+                  <td>SAMARÍA</td>
+                  <td>23.39</td>
+                  <td>24.69</td>
+                  <td>24.79</td>
+                </tr>
+                <tr>
+                  <td>TABSCOOB</td>
+                  <td>23.39</td>
+                  <td>24.69</td>
+                  <td>24.99</td>
+                </tr>
+                <tr>
+                  <td>MAJAHUA</td>
+                  <td>24.59</td>
+                  <td>23.19</td>
+                  <td>24.49</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    </form>
-  </section>
-  <!-- order section -->
+    </section>
+    <!-- precios section -->
 
-  <!-- swiper -->
-  <script src="/js/swiper-bundle.min.js"></script>
+    <section class="order" id="order">
+      <h1 class="heading">Conócenos en Nuestras Oficinas</h1>
 
-  <!-- custom js -->
-  <script src="js/script.js"></script>
-</body>
+      <form action="">
+        <div class="box-container">
+          <div class="box">
+            <div class="inputBox">
+              <span>Corporativo OLMECARED</span>
+              <input
+                type="text"
+                placeholder="Av. Periférico Carlos Pellicer Cámara S/N Col. Miguel Hidalgo."
+                readonly
+              />
+            </div>
 
+            <div class="inputBox">
+              <span>Email</span>
+              <input
+                type="text"
+                placeholder="sugerencias@olmecared.com"
+                readonly
+              />
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="inputBox">
+              <span>Teléfonos de Oficina</span>
+              <input
+                type="text"
+                placeholder="993-354-1457, 993-354-3306"
+                readonly
+              />
+            </div>
+
+            <div class="inputBox">
+              <span>Horarios de Atención</span>
+              <input
+                type="text"
+                placeholder="Lunes a Viernes de 8:00 AM a 7:00 PM y Sábados de 9:00 AM a 2:00 PM"
+                readonly
+              />
+            </div>
+
+            <div class="inputBox">
+              <span>Nuestra Ubicación</span>
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJS8wwZNfZ7YURqlQGEIHOJAs&key=AIzaSyDft4WlLUDeSEGuEKWZTLqfIk1KL4u_zIk"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- order section -->
+
+    <!-- swiper -->
+    <script src="/js/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
