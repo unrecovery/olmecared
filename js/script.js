@@ -15,7 +15,7 @@ window.onscroll = () => {
 
 var swiper = new Swiper(".home-slider", {
     grabCursor:true,
-    loop:true,
+    loop:false,
     centeredSlides:true,
     navigation: {
         nextEl: ".swiper-button-next",
