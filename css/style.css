@@ -84,9 +84,7 @@ section{
 }
 
 .header .logo{
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: var(--black);
+height: 50px;
 }
 
 .header .logo i{
@@ -725,6 +723,10 @@ margin-right: -10%;
         padding: 3rem 2rem;
     }
 
+    .header .logo{
+        height: 40px;
+        }
+
     .home .slide .content{
         text-align: left;
         width: 50rem;
@@ -747,6 +749,9 @@ margin-right: -10%;
         transform: rotate(180deg);
     }
 
+    .header .logo{
+        height: 35px;
+        }
     .header .navbar{
         position: absolute;
         top: 99%; left: 0; right: 0;
@@ -782,6 +787,9 @@ margin-right: -10%;
     html{
         font-size: 50%;
     }
+    .header .logo{
+        height: 35px;
+        }
 
     .home .slide .content h3{
 
