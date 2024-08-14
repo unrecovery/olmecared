@@ -168,6 +168,7 @@ height: 50px;
 .home .slide .content .texto{
 margin-left: -30%;
 margin-right: 30%;
+
 }
 
 
@@ -319,6 +320,7 @@ margin-right: 30%;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
+
 
 .fac .box-container .box .image{
     height: 20rem;
@@ -602,7 +604,13 @@ font-size: 24px;
 .fact .slide .content .texto{
 margin-left: -0%;
 margin-right: -10%;
+font-size: 35px;
 }
+
+.fact .slide .facturagas{
+    width: 250px;
+    }
+    
 
 
 .fact .slide .content h3{
@@ -736,7 +744,16 @@ margin-right: -10%;
         margin-left: 0%;
         margin-right: 10%;
         }
-
+        .fact .slide .content .texto{
+            margin-left: -0%;
+            margin-right: -10%;
+            font-size: 25px;
+            }
+        .fact .slide .facturagas{
+            width: 200px;
+            }
+            
+        
 }
 
 @media (max-width:768px){
@@ -779,6 +796,10 @@ margin-right: -10%;
         
         font-size: 4rem;
     }
+    .fact .slide .content .texto{
+      
+        font-size: 20px;
+        }
 
 }
 
@@ -796,4 +817,8 @@ margin-right: -10%;
         font-size: 3rem;
     }
 
+    .fact .slide .content .texto{
+      
+        font-size: 25px;
+        }
 }
