@@ -137,6 +137,12 @@ height: 50px;
     color: white;
   }
 
+  .pasos-image{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:295px;
+  }
+
 
 /* home */
 
@@ -344,7 +350,7 @@ margin-right: 30%;
 }
 
 .fac .box-container .box  p{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     color: #212121;
     padding: 0.1rem 0;
@@ -717,6 +723,10 @@ font-size: 35px;
     color: var(--main-color);
 }
 
+.ticket{
+    width: 60%;
+}
+
 
 
 /* media queries */
@@ -753,6 +763,9 @@ font-size: 35px;
             width: 200px;
             }
             
+            .ticket{
+                width: 100%;
+            }
         
 }
 
@@ -801,6 +814,9 @@ font-size: 35px;
         font-size: 20px;
         }
 
+    .ticket{
+        width: 100%;
+    }
 }
 
 @media (max-width:450px){
