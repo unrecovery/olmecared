@@ -5,29 +5,34 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Facturacion :: GRUPO DG</title>
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>INICIO :: ENERGIA DG</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
   <!-- swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <!-- lightgallery -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+  />
   <!-- custom css -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 
+
 <body>
-  <section class="header">      <img class="logo"  src="images/olmecared.png" alt="Logo de Grupo DG" />
-
-
-    
+  <section class="header">
+    <img class="logo" src="images/olmecared.png" alt="Logo de Grupo DG" />
     <nav class="navbar">
       <a href="index.html">INICIO</a>
       <a href="grupodg.html">GRUPO DG</a>
       <a href="facturacion.html">FACTURACIÓN</a>
       <a href="gasolinera.html">GASOLINERAS</a>
-      <a href="http://olmecared.dyndns.org/CGWAtio/" target="_blank">OLMECARED</a>
+      <a href="http://olmecared.dyndns.org/CGWAtio/" target="_blank"
+        >OLMECARED</a
+      >
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
@@ -36,85 +41,92 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide slide" style="background: url(images/bg_login.jpg)">
           <div class="content">
-            <h3 class="texto">Conoce nuestra APP de Facturacion</h3>
+            <h3 class="texto">Conoce nuestra APP de Facturación</h3>
             <img class="facturagas" alt="logo_facturagas" src="images/FACTURAGAS-bco.png">
-            <div style="margin-bottom: 20px;"/>   </div>
-            <a href="https://app.facturagas.net/" target="_blank" class="btn">Factura Aqui</a>
+            <!-- Eliminado <div style="margin-bottom: 20px;"/> ya que es incorrecto -->
+            <div style="margin-bottom: 20px;"></div> <!-- Corregido el div de cierre -->
+            <a href="https://app.facturagas.net/" target="_blank" class="btn">Factura Aquí</a>
           </div>
         </div>
       </div>
-
-
     </div>
   </section>
+  
 
-  <section class="fac" id="fac">
+  <section class="fac" id="fac"">
     <h1 class="heading">Facturacion Disponible 24/7</h1>
 
     <div class="box-container">
       <div class="box" style="border-right: 1px solid #08347d">
-        <h3 style="margin-bottom: 0.11in">Facturación en línea</h3>
-        <p style="margin-bottom: 0.11in">
+        <h3 style="margin-bottom: 0.11in; color: #393939;" ><strong>Facturación en línea</strong></h3>
+        <p style="margin-bottom: 0.11in;color: #393939;">
           Genera tus facturas <strong>desde la aplicación</strong>
         </p>
-        <p style="margin-bottom: 0.11in">
+        <p style="margin-bottom: 0.11in; color: #393939;">
           Te invitamos a darte de alta en esta sección, donde
           <strong>obtendrás un usuario y contraseña</strong>, con los cuales
           podrás elaborar de forma inmediata tu factura y descargarla en XML y
           PDF desde la comodidad de tu casa u oficina.
-
         </p>
+        <p><strong>Aqui encontraras un ejemplo de los datos que utilizarás para facturar</strong></p>
         <span>
           <img class="ticket" src="images/ticket.png" alt="" title="" />
         </span>
-        <div class="pasos">
-          <h3>Pasos para tu Facturación</h3>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <p>1. Inicia Sesion en la App FacturaGas</p>
-                <img  class="pasos-image" src="images/paso 0.jpg" alt="">
-                <p>2. Selecciona <strong>Nueva Factura</strong></p>
-                <img  class="pasos-image" src="images/paso 1.jpg" alt="">
-              </div>
-              <div class="col-sm">
-                <p>3. Rellena el Formulario con los datos del ticket</p>
-                <img  class="pasos-image" src="images/paso 3.jpg" alt="">
-              </div>
-             
-            </div>
-          </div>
-         
-       
-        </div>
       </div>
 
       <div class="box" style="border-right: 1px solid #08347d">
-        <h3>¿Tienes problemas para facturar?</h3>
-        <p>
+        <h3 style="color: #393939;"><strong>¿Tienes problemas para facturar?</strong></h3>
+        <p style="color: #393939;">
           En caso de tener algún problema con la elaboración de tu factura,
           comunícate con nosotros y te brindaremos una asesoría.
         </p>
-        <p><strong>Contacto:</strong></p>
-        <p style="margin-top: 10px;">
-          <strong>-Centro de atención telefónica</strong>
+        <p style="color: #393939; text-align: center;" ><strong>Medios de Contacto</strong></p>
+        <p style="margin-top: 10px; color: #393939;">
+          <strong>Centro de atención telefónica</strong>
         </p>
-        <p style=" margin: 0" href="tel:9933543306">Teléfono:&nbsp;993 354 33 06</p>
-        <p style="margin: 0">&nbsp;</p>
-        <p style="margin: 0"><strong>Horario de atención:</strong></p>
-        <p>
-          Lunes a Viernes 8:00 a 14:00 hrs. y 16:00 a 18:00 hrs..<br />Sábados 8:00 a 14:00 hrs.<br />
+        <p style=" margin: 0;color: #393939; padding-left: 5px;" href="tel:9933543306">Teléfono:&nbsp;993 354 33 06</p>
+        <p style="margin: 0;color: #393939;">&nbsp;</p>
+        <p style="margin: 0;color: #393939;"><strong>Horario de atención:</strong></p>
+        <p style="padding-left: 5px;">
+          Lunes a Viernes 8:00 a 14:00 hrs. y 16:00 a 18:00 hrs.<br />Sábados 8:00 a 14:00 hrs.<br />
         </p>
-        <p style="margin-top: 10px;">
-          <strong>-Correo electrónico:</strong><br /><a href="mailto:facturacion.olmeca1@grupodg.net" style="text-transform: lowercase;">atencion@grupodg.net</a>
-        </p>
-       
-
-        <a class="btn btn-mod btn-small btn-round button_main" target="_blank"
-          style="margin-top: -20px; margin-bottom: 10px; display: none" </div>
+        <p style="margin-top: 10px;color: #393939;">
+          <strong>Correo electrónico:</strong><br /><a href="mailto:facturacion.olmeca1@grupodg.net" style="text-transform: lowercase; padding-left: 5px;">atencion@grupodg.net</a>
+        </p>    
       </div>
+  
   </section>
-
+  <section class="order" id="order">
+    <div class="pasos">
+      <h3 style="color: #393939; text-align: center; font-size: 30px;padding-bottom: 20px;"><strong>Pasos para tu Facturación</strong></h3>
+      <div class="containerr" style="display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      gap: 10px;
+      font-size: 26px;">
+      <div class="imgs">
+        <p style="color: #393939;">1. Inicia Sesion en la App FacturaGas</p>
+        <img  style=" width: 65%;height: auto;display: block;"
+         class="pasos-image" src="images/paso 0.jpg" alt="">
+      </div>
+          
+         <div class="imgs">
+          <p style="color: #393939;">2. Selecciona <strong>Nueva Factura</strong></p>
+          <img   style=" width: 65%;height: auto;display: block;"class="pasos-image" src="images/paso 1.jpg" alt="">
+       
+         </div>
+          <div class="imgs">
+            <p>3. Rellena el Formulario con los datos del ticket</p>
+          <img   style=" width: 80%;height: auto;display: block;"class="pasos-image" src="images/paso 3.jpg" alt="">
+          </div>
+     
+        </div>
+      </div>
+     
+   
+    </div>
+  
+  </section>
   <!-- swiper -->
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <!-- custom js -->
