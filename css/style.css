@@ -160,7 +160,7 @@ height: 50px;
 }
 
 .home .slide{
-    min-height: 55vh;
+    min-height: 70vh;
     background-size:cover !important;
     background-position: center ;
     display: flex;
